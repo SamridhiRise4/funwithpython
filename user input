@@ -1,0 +1,31 @@
+a = input( ("Enter your name :"))
+print("Hii! I'm ",a)
+
+#input always give string as output ,we do typecasting to change the type of value
+Age = int(input("Enter your age:"))
+print("Your age is:", Age)
+
+#Sum
+
+x = int(input("Enter first no. :"))
+y = int(input("Enter the second no. :"))
+sum = x+y
+print("The sum of two no. is :",sum)
+
+#Area of Square
+
+side = float(input("enter the side of square:"))
+Area = side*side
+print("The area of square is:",Area)
+
+#Avg of two floating numbers
+
+num1 = float(input("Enter the first floating no.:"))
+num2 = float(input("Enter the second floating no.:"))
+Avg = (num1+num2)/2
+print("The average of two floating no.:",Avg)
+
+
+
+
+
