@@ -1,0 +1,32 @@
+name="Samriddhi Shukla"
+age=20
+age4=age
+occupation= "Student"
+price = 34.90
+
+#variables are used to store data values.
+
+print(name)
+print(age)
+print(age)
+print(occupation)
+print(price)
+print("My name is",name)
+print("My age is",age)
+print("My occupation is",occupation)
+
+#Data types are used to define the type of data store in a variable.
+print(type(name))
+print(type(age))
+print(type(occupation))
+print(type(price))
+
+#sum of two no.
+
+a=287
+b=76.4
+sum= a+b
+print("The sum of two number a and b is:", sum)
+
+
+
