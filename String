@@ -1,0 +1,49 @@
+#String is a collections of characters.
+
+str1 = "Samriddhi Shukla"
+str2 = "345"
+str3 = "45.5"
+print(str1)
+print(str2)
+print(str3)
+
+#Escape Sequence in String
+ 
+string = "Hello All! \n I'm Samridhdi Shukla and I got full believe in myself that I'm gonna get a unachievable success in my life. " #\n provide next line
+print(string)
+
+
+#operations on String
+# (1) Concatenation
+
+y = "The GOAT"
+x = "Samriddhi Shukla"
+z = y+ " "+ x
+print(z)
+
+# (2) lenth of string
+
+print(len(z))
+
+
+#indexing in String
+
+str = "Bharat Mata"
+print(str[4])
+#str[4] = "r"    Error (can't change character of string)
+#print(str)
+
+#Slicing (Acessing parts of a string)
+
+print(str[4:7])
+print(str[-4:-3]) #-ve indexing
+
+fname = input("Enter your first name:")
+print("The length of the string is:", len(fname))
+
+occur = "I know I'm doing best in my life I love the universe for giving me eveeything what I want"
+print(occur.count("o"))
+
+
+
+
