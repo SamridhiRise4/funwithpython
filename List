@@ -1,0 +1,54 @@
+marks = [23,45,56,67]
+print(marks)
+print(type(marks))
+print(marks[3])
+print(marks[2])
+
+#list is a set of values(mutable)
+
+list = [2,34.5 , "Samriddhi shukla", True]
+print(list)
+print(list[3])
+list[2] = "Raja"
+print(list)
+
+#slicing in list
+print(list[2:4])
+print(list[-2:-3])
+u = [45,78,2,0,43]
+
+
+print(list.append("radha"))
+print(u.sort())
+print(list.reverse())
+print(list.insert(3,"Samriddhi Shukla"))
+
+Favmovies = []
+movie1 = input("Enter your 1st favourite movie:")
+movie2 = input("Enter your 2nd favourite movie:")
+movie3 = input("Enter your 3rd favourite movie:")
+Favmovies.append(movie1)
+Favmovies.append(movie2)
+Favmovies.append(movie3)
+print(Favmovies)
+
+#same code with different approach
+
+mov = []
+mov.append(input("Enter your 1st movie:"))
+mov.append(input("Enter your 2nd movies:"))
+mov.append(input("Enter your 3rd movie:"))
+print(mov)
+
+v = list(input("Enter the list"))
+copy = v.copy()
+copy.reverse()
+
+if (v == copy):
+    print("Palindrome")
+else:
+    print("Not a Palindrome")     
+
+            
+
+
